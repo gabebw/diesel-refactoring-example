@@ -1,0 +1,9 @@
+[package]
+name = "diesel-refactoring-example"
+version = "0.1.0"
+authors = ["Gabe Berke-Williams <gabebw@gabebw.com>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4.5", features = ["sqlite"] }
+diesel_migrations = "1.4.0"
